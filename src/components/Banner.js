@@ -1,7 +1,7 @@
 import styles from './Banner.module.css';
 import Typed from 'react-typed';
 
-const headingStrings = ['Web Development Head at IOSD-NSUT', 'Front-End Web Developer', 'Back-End Web Developer'];
+const headingStrings = ['JavaScript Enthusiast', 'Front-End Web Developer', 'Back-End Web Developer'];
 const subheaderStrings = ['JavaScript relaxes me. I love what I do.'];
 
 const Banner = () => {
@@ -37,18 +37,20 @@ const Banner = () => {
                     <div className='col-3'>
                         <img src='/assets/images/avatar.png' alt='avatar' width='100%' /> 
                     </div>
-                    <div className='col-6'>
+                    <div className='col-7'>
                         <h2 style={{fontFamily:"'Parisienne', cursive"}}>HM Varshney</h2>
-                        <h6 className='mt-3 font-family-text'>Web Development Head at Internation Organization of Software Developers - NSUT</h6>
-                        <h6 className='font-family-text'>Web Development Project Lead at Yehlo Software Solutions</h6>
+                        <h5 className='mt-3 font-family-text'> {'->'} Web Development Head at Internation Organization of Software Developers - NSUT</h5>
+                        <h5 className='font-family-text'> {'->'} Web Development Project Lead at Yehlo Software Solutions</h5>
                     </div>
                 </div>
-                <div style={{marginTop:'5em'}}>
-                    <a href='#work'><button className={styles['view-work-button']}>View My Work.</button></a>
+                <div style={{marginTop:'5em'}} className='d-flex align-items-center'>
+                    <div className='mx-5'>
+                        <a href='#work'><button className={styles['view-work-button']}>View My Work.</button></a>
+                    </div>
+                    <div className='mx-5'>
+                        <a href='#skill'><button className={styles['view-work-button']}>My Little Skillset.</button></a>
+                    </div>
                 </div>
-                {/* <div style={{marginTop:'7em'}} className='col-4'>
-                    <img src='/assets/images/banner.svg' width='100%' alt='banner' />
-                </div> */}
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import styles from './Skills.module.css';
 
 const Skills = () => {
     return (  
-        <div className='d-flex justify-content-center'>
+        <div id='skill' className='d-flex justify-content-center'>
             <div className={styles['container']}>
                 <div style={{height:'100%'}} className='row no-gutters'>
                     <div style={{height:'100%'}} className='col-4'>
