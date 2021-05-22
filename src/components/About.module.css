@@ -1,0 +1,20 @@
+.container{
+    margin-top: 2em;
+    min-height: 500px;
+    height: 500px;
+    background-color: #7510F7;
+}
+
+.about-container{
+    margin-top: 4em;
+    width: 60%;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-container > h6{
+    line-height: 40px;
+    font-weight: 400;
+    font-family: Rajdhani, Playfair Display, sans-serif;
+}
