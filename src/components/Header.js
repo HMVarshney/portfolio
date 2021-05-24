@@ -9,7 +9,9 @@ const Header = () => {
                         <h2 style={{fontFamily:"'Parisienne', cursive"}}>HM Varshney</h2>
                     </div>
                     <div>
-                        <button className={styles['contact-button']}>Contact Me!</button>
+                        <a href='#footer'>
+                            <button className={styles['contact-button']}>Contact Me!</button>
+                        </a>
                     </div>
                 </div>
             </div>

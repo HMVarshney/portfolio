@@ -2,13 +2,49 @@
     border-radius: 20px;
     transition: all 400ms ease-in-out;
     height: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .wrapper:hover{
-    box-shadow: 0 3px 10px rgb(216, 216, 216);
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
 }
 
 .container{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
+    transition: all 400ms ease-in-out;
+    padding: 3em;
+    cursor: pointer;
+}
+.container > div{
+    display: none;
+    transition: all 400ms ease-in-out;
+    color: white;
+}
+
+.container:hover{
+    background-color: #141c3aa9;
+    backdrop-filter: blur(4px);
+}
+
+.container:hover > div {
+    display: block;
+}
+
+.visit-site-button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: #7510F7;
+    transition: all 300ms ease-in-out;
+    background: transparent;
+    color: white;
+}
+
+.visit-site-button:hover{
+    background-color: #7510F7;
+    border: 1px solid #7510F7;
 }
